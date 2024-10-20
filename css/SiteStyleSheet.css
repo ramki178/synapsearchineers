@@ -1,0 +1,11 @@
+﻿.navhover :hover{
+    color:black;
+}
+.nav-link > li > a {
+    color: white !important;
+}
+
+    .nav-link > li > a:hover {
+        color: pink !important;
+        background-color: #5d0b1d;
+    }

@@ -1,0 +1,7 @@
+﻿.nav-link > li > a {
+    color: white !important;
+}
+    .nav-link > li > a:hover {
+        color: pink !important;
+    }
+
