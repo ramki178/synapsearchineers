@@ -1,0 +1,149 @@
+﻿
+/*table*/
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .customers tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .customers tr:hover {
+        background-color: #ddd;
+    }
+
+    .customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+/*table*/
+/*Custom Settings*/
+
+.navigationBar:hover {
+    color:red !important;
+}
+.customSectionLayout {
+    background-color: transparent;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Bookman Old Style';
+}
+
+.customDiv1Index {
+    background-color: #5d091d;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Bookman Old Style';
+    padding-left: 10px;
+    padding-right: 10px
+}
+.customDiv2Index {
+    background-color: white;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-family: 'Bookman Old Style';
+    padding-left: 10px;
+    padding-right: 10px
+}
+.customDiv3Index {
+    background-color: transparent;
+    height: 700px
+}
+
+.DivFloating {
+    color: red;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .customDiv1IndexSmallScreens {
+        background-color: #5d091d;
+        height: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px
+    }
+
+    .customDiv2IndexSmallScreens {
+        background-color: white;
+        height: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 7px;
+        padding-right: 7px
+    }
+    .customDiv3IndexSmallScreens {
+        background-color: transparent;
+        height:20px;
+    }
+
+    .customSectionLayoutSmallScreens {
+        visibility: hidden;
+    }
+    .projects {
+       padding-left:10px; 
+    }
+}
+
+.customcarouselindicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: right;
+    list-style: none;
+}
+    .customcarouselindicatorsactive {
+        width: 12px;
+        height: 12px;
+        margin: 0;
+        background-color: #fff;
+    }
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 768px) {
+    .customDiv1IndexSmallScreens {
+        background-color: #5d091d;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 7px;
+        padding-right: 7px
+    }
+    .customDiv2IndexSmallScreens {
+        background-color: white;
+        height: 200px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px
+    }
+    .customDiv3IndexSmallScreens {
+        background-color: transparent;
+        height: 20px;
+    }
+    .customSectionLayoutSmallScreens {
+        visibility: hidden;
+    }
+
+    .projects {
+        padding-left: 10px;
+        
+    }
+}
+/*Custom Settings*/
